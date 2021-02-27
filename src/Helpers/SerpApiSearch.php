@@ -1,9 +1,9 @@
 <?php
 
-// Exception
-class SerpApiSearchException extends Exception
-{
-}
+namespace Tipoff\LaravelSerpapi\Helpers;
+
+use RestClient;
+use Tipoff\LaravelSerpapi\Exceptions\SerpApiSearchException;
 
 /* * *
  * Google search
