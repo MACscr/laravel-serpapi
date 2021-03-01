@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tipoff\LaravelSerpapi;
 
-use SerpApiSearch;
+use Tipoff\LaravelSerpapi\Helpers\SerpApiSearch;
 use Tipoff\Support\TipoffPackage;
 use Tipoff\Support\TipoffServiceProvider;
 
