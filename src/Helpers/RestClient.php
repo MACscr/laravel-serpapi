@@ -70,7 +70,7 @@ class RestClient implements \Iterator, \ArrayAccess
     }
 
     // Iterable methods:
-    public function rewind() : bool|object|array|string
+    public function rewind() : bool | object | array | string
     {
         $this->decode_response();
 
