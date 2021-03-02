@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tipoff\LaravelSerpapi\Helpers;
 
 use Tipoff\LaravelSerpapi\Exceptions\RestClientException;
@@ -68,7 +70,7 @@ class RestClient implements \Iterator, \ArrayAccess
     }
 
     // Iterable methods:
-    public function rewind()
+    public function rewind : bool|object|array|string ()
     {
         $this->decode_response();
 
@@ -85,7 +87,7 @@ class RestClient implements \Iterator, \ArrayAccess
         return key($this->decoded_response);
     }
 
-    public function next()
+    public function next : array ()
     {
         return next($this->decoded_response);
     }
@@ -267,7 +269,7 @@ class RestClient implements \Iterator, \ArrayAccess
                 $key = trim(strtolower(str_replace('-', '_', $key)));
                 $value = trim($value);
 
-                if (empty($headers[$key])) {
+                if(empty($headers) || empty($headers[$key]))
                     $headers[$key] = $value;
                 } elseif (is_array($headers[$key])) {
                     $headers[$key][] = $value;
