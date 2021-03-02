@@ -29,10 +29,7 @@
             "Tipoff\\LaravelSerpapi\\": "src",
             "Tipoff\\LaravelSerpapi\\Database\\Factories\\": "database/factories",
             "Tipoff\\LaravelSerpapi\\Database\\Seeders\\": "database/seeders"
-        },
-        "files": [
-            "src/Helpers/SerpApiSearch.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
