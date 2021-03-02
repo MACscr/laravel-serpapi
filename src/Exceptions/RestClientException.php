@@ -4,4 +4,6 @@ namespace Tipoff\LaravelSerpapi\Exceptions;
 
 use Exception;
 
-class RestClientException extends Exception {}
+class RestClientException extends Exception
+{
+}
