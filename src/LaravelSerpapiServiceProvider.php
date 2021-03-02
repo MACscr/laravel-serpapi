@@ -15,7 +15,7 @@ class LaravelSerpapiServiceProvider extends TipoffServiceProvider
         $package
             ->name('laravel-serpapi')
             ->hasViews()
-            ->hasConfigFile();
+            ->hasConfigFile('laravel-serpapi'); // If config name is not passed in, `laravel-` is stripped off
     }
 
     public function register()
