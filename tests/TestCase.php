@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Tipoff\LaravelSerpapi\Tests;
 
 use Laravel\Nova\NovaCoreServiceProvider;
+use Spatie\Permission\PermissionServiceProvider;
+use Tipoff\Authorization\AuthorizationServiceProvider;
 use Tipoff\LaravelSerpapi\LaravelSerpapiServiceProvider;
 use Tipoff\LaravelSerpapi\Tests\Support\Providers\NovaTestbenchServiceProvider;
-use Tipoff\Locations\LocationsServiceProvider;
 use Tipoff\Support\SupportServiceProvider;
 use Tipoff\TestSupport\BaseTestCase;
 
@@ -20,7 +21,8 @@ class TestCase extends BaseTestCase
             NovaTestbenchServiceProvider::class,
             LaravelSerpapiServiceProvider::class,
             SupportServiceProvider::class,
-            LocationsServiceProvider::class,
+            AuthorizationServiceProvider::class,
+            PermissionServiceProvider::class,
         ];
     }
 }
