@@ -17,3 +17,7 @@ All notable changes to `laravel-serpapi` will be documented in this file.
 ## 1.0.3 - 2021-03-01
 
 - remove dependency
+
+## 1.0.4 - 2021-03-02
+
+- fix errors
