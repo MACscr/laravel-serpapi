@@ -23,6 +23,8 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'api_key' => env('SERPAPI_API_KEY'),
+    'search_engine' => env('SERPAPI_ENGINE', 'google')
 ];
 ```
 
