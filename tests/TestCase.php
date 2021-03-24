@@ -8,9 +8,9 @@ use Laravel\Nova\NovaCoreServiceProvider;
 use Spatie\Permission\PermissionServiceProvider;
 use Tipoff\Authorization\AuthorizationServiceProvider;
 use Tipoff\LaravelSerpapi\LaravelSerpapiServiceProvider;
-use Tipoff\LaravelSerpapi\Tests\Support\Providers\NovaTestbenchServiceProvider;
 use Tipoff\Support\SupportServiceProvider;
 use Tipoff\TestSupport\BaseTestCase;
+use Tipoff\TestSupport\Providers\NovaPackageServiceProvider;
 
 class TestCase extends BaseTestCase
 {
@@ -18,7 +18,7 @@ class TestCase extends BaseTestCase
     {
         return [
             NovaCoreServiceProvider::class,
-            NovaTestbenchServiceProvider::class,
+            NovaPackageServiceProvider::class,
             LaravelSerpapiServiceProvider::class,
             SupportServiceProvider::class,
             AuthorizationServiceProvider::class,
