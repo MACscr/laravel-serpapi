@@ -25,3 +25,7 @@ All notable changes to `laravel-serpapi` will be documented in this file.
 ## 1.0.5 - 2021-03-12
 
 - remove key model
+
+## 2.0.0 - 2021-04-09
+
+- bump support dependencies
