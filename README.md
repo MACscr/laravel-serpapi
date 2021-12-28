@@ -4,14 +4,14 @@
 ![Tests](https://github.com/tipoff/laravel-serpapi/workflows/Tests/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/tipoff/laravel-serpapi.svg?style=flat-square)](https://packagist.org/packages/tipoff/laravel-serpapi)
 
-This is where your description should go.
+Broken at the moment. Fork attempt to remove nova and other uneeded dependencies.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require tipoff/laravel-serpapi
+composer require macscr/laravel-serpapi
 ```
 
 You can publish the config file with:
@@ -26,12 +26,6 @@ return [
     'api_key' => env('SERPAPI_API_KEY'),
     'search_engine' => env('SERPAPI_ENGINE', 'google')
 ];
-```
-
-## Testing
-
-```bash
-composer test
 ```
 
 ## Changelog
