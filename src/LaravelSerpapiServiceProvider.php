@@ -5,17 +5,10 @@ declare(strict_types=1);
 namespace Tipoff\LaravelSerpapi;
 
 use Tipoff\LaravelSerpapi\Helpers\SerpApiSearch;
-use Tipoff\Support\TipoffPackage;
-use Tipoff\Support\TipoffServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class LaravelSerpapiServiceProvider extends TipoffServiceProvider
+class LaravelSerpAPIServiceProvider extends ServiceProvider
 {
-    public function configureTipoffPackage(TipoffPackage $package): void
-    {
-        $package
-            ->name('laravel-serpapi')
-            ->hasConfigFile('laravel-serpapi'); // If config name is not passed in, `laravel-` is stripped off
-    }
 
     public function register()
     {
