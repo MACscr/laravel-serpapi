@@ -21,25 +21,12 @@
         "tipoff/authorization": "^2.8.6",
         "tipoff/support": "^2.1.5"
     },
-    "require-dev": {
-        "tipoff/test-support": "^2.0.1"
-    },
     "autoload": {
         "psr-4": {
             "Tipoff\\LaravelSerpapi\\": "src",
             "Tipoff\\LaravelSerpapi\\Database\\Factories\\": "database/factories",
             "Tipoff\\LaravelSerpapi\\Database\\Seeders\\": "database/seeders"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tipoff\\LaravelSerpapi\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "psalm": "vendor/bin/psalm",
-        "test": "vendor/bin/phpunit --colors=always",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
         "sort-packages": true
@@ -54,12 +41,6 @@
             }
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
