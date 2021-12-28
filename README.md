@@ -39,7 +39,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Tipoff](https://github.com/tipoff)
-- [Macscr](https://github.com/tipoff)
+- [MACscr](https://github.com/MACscr)
 - [All Contributors](../../contributors)
 
 ## License
