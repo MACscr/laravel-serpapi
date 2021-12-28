@@ -17,7 +17,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "google/apiclient": "^2.7",
-        "tcdent/php-restclient": "^0.1.7",
+        "tcdent/php-restclient": "^0.1.7"
     },
     "autoload": {
         "psr-4": {
