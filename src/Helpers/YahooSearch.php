@@ -1,8 +1,8 @@
 <?php
 
-namespace Tipoff\LaravelSerpapi\Helpers;
+namespace Macscr\LaravelSerpapi\Helpers;
 
-use Tipoff\LaravelSerpapi\Exceptions\SerpApiSearchException;
+use Macscr\LaravelSerpapi\Exceptions\SerpApiSearchException;
 
 /* * *
  * Yahoo search

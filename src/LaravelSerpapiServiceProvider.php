@@ -2,14 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tipoff\LaravelSerpapi;
+namespace Macscr\LaravelSerpapi;
 
-use Tipoff\LaravelSerpapi\Helpers\SerpApiSearch;
 use Illuminate\Support\ServiceProvider;
+use Macscr\LaravelSerpapi\Helpers\SerpApiSearch;
 
 class LaravelSerpAPIServiceProvider extends ServiceProvider
 {
-
     public function register()
     {
         parent::register();

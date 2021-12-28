@@ -1,6 +1,6 @@
 <?php
 
-namespace Tipoff\LaravelSerpapi\Facades;
+namespace Macscr\LaravelSerpapi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

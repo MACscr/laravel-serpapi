@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tipoff\LaravelSerpapi\Helpers;
+namespace Macscr\LaravelSerpapi\Helpers;
 
 use RestClient;
-use Tipoff\LaravelSerpapi\Exceptions\SerpApiSearchException;
+use Macscr\LaravelSerpapi\Exceptions\SerpApiSearchException;
 
 /* * *
  * Wrapper around serpapi.com

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tipoff\LaravelSerpapi\Exceptions;
+namespace Macscr\LaravelSerpapi\Exceptions;
 
 use Exception;
 

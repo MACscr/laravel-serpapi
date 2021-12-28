@@ -1,10 +1,6 @@
 # Laravel Package for tracking Google laravel-serpapi
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/tipoff/laravel-serpapi.svg?style=flat-square)](https://packagist.org/packages/tipoff/laravel-serpapi)
-![Tests](https://github.com/tipoff/laravel-serpapi/workflows/Tests/badge.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/tipoff/laravel-serpapi.svg?style=flat-square)](https://packagist.org/packages/tipoff/laravel-serpapi)
-
-Broken at the moment. Fork attempt to remove nova and other uneeded dependencies.
+Broken at the moment. Fork attempt to remove nova and other uneeded dependencies. I have no idea what I am doing, so bear with me.
 
 ## Installation
 
@@ -16,7 +12,7 @@ composer require macscr/laravel-serpapi
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Tipoff\LaravelSerpapi\LaravelSerpapiServiceProvider" --tag="laravel-serpapi-config"
+php artisan vendor:publish --provider="Macscr\LaravelSerpapi\LaravelSerpapiServiceProvider" --tag="laravel-serpapi-config"
 ```
 
 This is the contents of the published config file:
@@ -43,6 +39,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Tipoff](https://github.com/tipoff)
+- [Macscr](https://github.com/tipoff)
 - [All Contributors](../../contributors)
 
 ## License

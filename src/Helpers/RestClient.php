@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tipoff\LaravelSerpapi\Helpers;
+namespace Macscr\LaravelSerpapi\Helpers;
 
-use Tipoff\LaravelSerpapi\Exceptions\RestClientException;
+use Macscr\LaravelSerpapi\Exceptions\RestClientException;
 
 /**
  * PHP REST Client

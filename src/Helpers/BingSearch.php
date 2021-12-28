@@ -1,6 +1,6 @@
 <?php
 
-namespace Tipoff\LaravelSerpapi\Helpers;
+namespace Macscr\LaravelSerpapi\Helpers;
 
 /* * *
  * Bing search

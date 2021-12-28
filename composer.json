@@ -2,15 +2,14 @@
     "name": "macscr/laravel-serpapi",
     "description": "Laravel Package for tracking Google laravel-serpapi",
     "keywords": [
-        "tipoff",
         "laravel-serpapi"
     ],
-    "homepage": "https://github.com/tipoff/laravel-serpapi",
+    "homepage": "https://github.com/macscr/laravel-serpapi",
     "license": "MIT",
     "authors": [
         {
-            "name": "Tipoff",
-            "email": "packages@tipoff.com",
+            "name": "MACscr",
+            "email": "macscr@macscr.com",
             "role": "Developer"
         }
     ],
@@ -21,9 +20,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Tipoff\\LaravelSerpapi\\": "src",
-            "Tipoff\\LaravelSerpapi\\Database\\Factories\\": "database/factories",
-            "Tipoff\\LaravelSerpapi\\Database\\Seeders\\": "database/seeders"
+            "Macscr\\LaravelSerpapi\\": "src",
+            "Macscr\\LaravelSerpapi\\Database\\Factories\\": "database/factories",
+            "Macscr\\LaravelSerpapi\\Database\\Seeders\\": "database/seeders"
         }
     },
     "config": {
@@ -32,10 +31,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tipoff\\LaravelSerpapi\\LaravelSerpapiServiceProvider"
+                "Macscr\\LaravelSerpapi\\LaravelSerpapiServiceProvider"
             ],
             "aliases": {
-                "SerpApiSearch": "Tipoff\\LaravelSerpapi\\Facades\\SerpApiSearchFacade"
+                "SerpApiSearch": "Macscr\\LaravelSerpapi\\Facades\\SerpApiSearchFacade"
             }
         }
     },
