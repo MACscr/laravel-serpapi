@@ -20,9 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Macscr\\LaravelSerpapi\\": "src",
-            "Macscr\\LaravelSerpapi\\Database\\Factories\\": "database/factories",
-            "Macscr\\LaravelSerpapi\\Database\\Seeders\\": "database/seeders"
+            "Macscr\\LaravelSerpapi\\": "src"
         }
     },
     "config": {
